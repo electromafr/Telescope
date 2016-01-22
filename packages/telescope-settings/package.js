@@ -11,8 +11,9 @@ Package.onUse(function(api) {
   api.versionsFrom(['METEOR@1.0']);
 
   api.use([
-    'telescope:lib@0.25.6', 
-    'telescope:i18n@0.25.6'
+    'telescope:lib@0.25.6',
+    'telescope:i18n@0.25.6',
+    'hausor:autoform-bs-minicolors@1.0.0'
   ]);
 
   api.addFiles([
@@ -30,7 +31,7 @@ Package.onUse(function(api) {
     'lib/client/language_changer.js',
     'lib/client/helpers.js',
     'lib/client/templates/settings.html',
-    'lib/client/templates/settings.js'
+    'lib/client/templates/settings.js'  
   ], 'client');
 
   var languages = ["ar", "bg", "cs", "da", "de", "el", "en", "es", "et", "fr", "hu", "id", "it", "ja", "kk", "ko", "nl", "pl", "pt-BR", "ro", "ru", "sl", "sv", "th", "tr", "vi", "zh-CN"];
